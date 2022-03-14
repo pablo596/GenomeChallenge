@@ -5,9 +5,9 @@ import BottomNavBar from '../components/BottomNavBar';
 import Icons from '../constants/Icons';
 import UserHeader from '../components/UserHeader';
 import Colors from '../constants/Colors';
-import Backgroud from '../components/Background';
+import Background from '../components/Background';
 
-const MainScreem = () => {
+const MainScreen = () => {
   const [currentScreen, setCurrentScreen] = useState(1);
   const cards = [
     {
@@ -91,7 +91,7 @@ const MainScreem = () => {
   return (
     <View style={style.container}>
       <StatusBar backgroundColor={Colors.blue2} barStyle={'light-content'} />
-      <Backgroud />
+      <Background />
       <SafeAreaView>
         <UserHeader />
         <Carousel cards={cards} />
@@ -112,4 +112,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default MainScreem;
+export default MainScreen;

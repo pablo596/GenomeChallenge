@@ -5,7 +5,7 @@ import {View, StyleSheet} from 'react-native';
 import {globalHeight, globalWidth, isIOS} from '../constants/Dimensions';
 import Colors from '../constants/Colors';
 
-const Backgroud = () => {
+const Background = () => {
   return (
     <View style={style.container}>
       <Svg
@@ -47,4 +47,4 @@ const style = StyleSheet.create({
     width: globalWidth(),
   },
 });
-export default Backgroud;
+export default Background;

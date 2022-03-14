@@ -23,7 +23,6 @@ const ButtonIcon = ({button, isActive}) => {
   );
 };
 const BottomNavBar = ({buttons, isActive}) => {
-  console.log(buttons);
   return (
     <View style={style.bottomBarContainer}>
       {buttons.map((button, i) => {
@@ -41,7 +40,6 @@ const BottomNavBar = ({buttons, isActive}) => {
 
 const style = StyleSheet.create({
   container: {
-    // flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
